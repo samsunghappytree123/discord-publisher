@@ -7,7 +7,6 @@ setup(
     author = 'Happytree Samsung',
     author_email = 'samsunghappytree123@naver.com',
     url = 'https://github.com/samsunghappytree123/discord-publisher',
-    download_url = 'https://github.com/samsunghappytree123/discord-publisher/archive/master.zip',
     install_requires =  ['aiohttp', 'asyncio'],
     packages = find_packages(exclude = []),
     keywords = ['discord', 'discord.py', 'discord_publisher', 'discord-publisher'],

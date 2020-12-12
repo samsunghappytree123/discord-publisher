@@ -1,2 +1,2 @@
 # discord-publisher
-Discord 공지 채널에 메세지를 보내보세요!
+Discord 공지 채널에 메세지를 발신해보세요!

@@ -1,11 +1,7 @@
 from setuptools import setup, find_packages
-import os
- 
-path = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/')
 
-readme = ''
-with open(f'{path}/README.md', encoding='UTF8') as f:
-    readme = f.read()
+with open('README.md', encoding='utf-8') as f:
+    long_description = f.read()
 
 setup(
     name = 'discord_publisher',
@@ -21,8 +17,8 @@ setup(
     },
     install_requires =  ['aiohttp', 'asyncio'],
     keywords = ['discord', 'discord.py', 'discord_publisher', 'discord-publisher'],
-    long_description=readme,
-    long_description_content_type="text/markdown",
+    long_description = long_description,
+    long_description_content_type='text/markdown',
     include_package_data=True,
     python_requires='>=3.6',
     classifiers=[

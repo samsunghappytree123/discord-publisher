@@ -1,2 +1,2 @@
-__name__ = 'Discord-publisher'
+__name__ = 'discord_publisher'
 __author__ = 'samsunghappytree123'

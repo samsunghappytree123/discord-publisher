@@ -17,7 +17,7 @@ Happytree Samsung
 import discord_publisher
 
 pb = discord_publisher.Publisher('이곳에 봇 토큰을 넣어주세요.', '이곳에 채널 아이디를 넣어주세요.', '이곳에 전송할 메세지 아이디를 넣어주세요.')
-pb.postnotice()
+await pb.postnotices()
 ```
 
 ---

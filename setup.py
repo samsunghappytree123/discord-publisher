@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
  
 setup(
     name = 'discord_publisher',
-    version = '0.1',
+    version = '1.0.0',
     description = 'Discord 공지 채널에 메세지를 발신해보세요!',
     author = 'Happytree Samsung',
     author_email = 'samsunghappytree123@naver.com',

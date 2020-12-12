@@ -17,6 +17,7 @@ setup(
     },
     install_requires =  ['aiohttp', 'asyncio'],
     keywords = ['discord', 'discord.py', 'discord_publisher', 'discord-publisher'],
+    license='GPL-3.0',
     long_description = long_description,
     long_description_content_type='text/markdown',
     include_package_data=True,

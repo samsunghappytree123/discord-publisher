@@ -6,8 +6,6 @@ class Publisher:
         self.token = token
         self.channel_id = channel_id
         self.message_id = message_id
-        if not type(self.token) == str:
-            raise TypeError("올바르지 않은 토큰 타입입니다.")
     
     async def postnotices(self):
         async with aiohttp.ClientSession() as session:

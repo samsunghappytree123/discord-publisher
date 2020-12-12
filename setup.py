@@ -5,13 +5,13 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(
     name = 'discord_publisher',
-    version = '1.0.2',
+    version = '1.0.3',
     description = 'Discord 공지 채널에 메세지를 발신해보세요!',
     author = 'Happytree Samsung',
     author_email = 'samsunghappytree123@naver.com',
     url = 'https://github.com/samsunghappytree123/discord-publisher',
     project_urls={
-        "Homepage": "https://github.com/samsunghappytree123/discord-publisher",
+        "Homepage": "https://pp.devht.cf",
         "Source":"https://github.com/samsunghappytree123/discord-publisher",
         "Tracker":"https://github.com/samsunghappytree123/discord-publisher/issues"
     },
